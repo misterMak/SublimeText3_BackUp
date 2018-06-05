@@ -1,0 +1,13 @@
+{
+	"show_css_completions": false, // strongly recommended
+	"preferences": {
+	 	"filter.commentAfter": "<!-- /<%= attr(\"id\", \"#\") %><%= attr(\"class\", \".\") %> -->"
+	},
+	"syntaxProfiles": {
+		// Enable XHTML dialect for HTML syntax
+		// “html”: “xhtml”
+		"html" : {
+		"filters" : "html, c"
+		}
+	}
+}
